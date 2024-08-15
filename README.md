@@ -1,9 +1,17 @@
-# React + Vite
+# Mon Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue sur mon portfolio ! Ce projet est développé avec **React** pour la construction de l'interface utilisateur et **Tailwind CSS** pour le style. Il met en avant mes compétences, projets, et expériences dans le développement web.
 
-Currently, two official plugins are available:
+## Fonctionnalités
+- Interface utilisateur réactive et moderne.
+- Sections dédiées à mes projets, compétences et parcours.
+- Navigation fluide avec une expérience utilisateur optimisée.
+- Design personnalisé avec Tailwind CSS pour une mise en page propre et professionnelle.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# Portfolio_react_Taillwind" 
+## Technologies utilisées
+- **React** : Pour la création de composants dynamiques et interactifs.
+- **Tailwind CSS** : Pour une stylisation rapide et efficace avec des classes utilitaires.
+- **Vite** : Pour un environnement de développement rapide et performant.
+
+## Aperçu
+Vous pouvez visualiser une démo de ce portfolio en ligne [ici](lien_vers_votre_portfolio).
