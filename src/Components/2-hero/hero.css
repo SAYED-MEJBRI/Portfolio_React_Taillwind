@@ -1,0 +1,100 @@
+/* 
+=============================
+Table of contents
+=============================
+1-Left secton
+2-Right Design => animation
+
+ */
+
+
+
+
+
+
+/*  
+=============================
+1-Left secton
+=============================
+*/
+
+section.hero {
+    margin: 3rem;
+
+}
+
+section.hero .parent-avatar.flex {
+    align-items: end;
+    gap: 0.6px;
+}
+
+section.hero .icon-verified {
+    color: var(--blue);
+    font-size: 1.1em;
+    margin-bottom: 0.3em;
+
+}
+
+section.hero .left-section {
+    flex-grow: 1;
+}
+
+section.hero .avatar {
+    width: 55px;
+    border-radius: 50px;
+    border: 1px solid darkorange;
+    padding: 1px;
+    box-shadow: 2px 1px 40px rgba(206, 204, 204, 0.568) inset;
+
+}
+
+section.hero h1.title {
+    font-size: 2.85rem;
+    line-height: 3.3rem;
+    max-width: 24px 0;
+    color: var(--title);
+}
+
+section.hero p.sub-title {
+    color: var(--subtitle);
+    font-size: 0.9rem;
+
+    margin-bottom: 32px;
+}
+
+section.hero .icons {
+    font-size: 1.3rem;
+    gap: 1.5rem;
+    color: var(--subtitle);
+    
+}
+
+section.hero .icons .icon:hover {
+    font-size: 1.4rem;
+    transition: .3s;
+    cursor: pointer;
+    color: var(--icon-hover);
+}
+
+/*  
+=============================
+2-Right Design => animation
+=============================
+*/
+
+
+
+/*  
+=============================
+3-Reponsive design
+=============================
+*/
+
+/* @media (max-width:600px) {
+   .container{
+    width: 98%;
+    padding: 0 1.7rem;
+   }
+  
+
+} */
