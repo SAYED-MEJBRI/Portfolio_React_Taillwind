@@ -2,19 +2,19 @@ import React from "react";
 import "./footer.css";
 const Footer = () => {
   return (
-    <footer className="flex">
+    <footer id="Uses" className="flex">
       <ul className="flex">
         <li>
-          <a href="">About</a>
+          <a href="#About">About</a>
         </li>
         <li>
-          <a href="">Projects</a>
+          <a href="#Projects">Projects</a>
         </li>
         <li>
-          <a href="">Speaking</a>
+          <a href="#Speaking">Speaking</a>
         </li>
         <li>
-          <a href="">Uses</a>
+          <a href="#Uses">Uses</a>
         </li>
       </ul>
       <p>©2024 All rights reserved </p>

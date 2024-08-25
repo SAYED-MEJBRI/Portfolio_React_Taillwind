@@ -1,33 +1,61 @@
-import React from "react";
+import Lottie from "lottie-react";
 import "./hero.css";
+import devAnimation from "../../animation/dev.json";
+import { useRef } from "react";
+import { motion } from "framer-motion";
+
 const Hero = () => {
+  const lottieRef = useRef();
+
   return (
-    <section className="hero flex ">
-      <div className="left-section ">
+    <section className="hero flex">
+      <div id="About" className="left-section  ">
         <div className="parent-avatar flex">
-          <img src="./avatar.png" className="avatar" alt="" />
+          <motion.img
+            initial={{ transform: "scale(0)" }}
+            animate={{ transform: "scale(1.1)" }}
+            transition={{ damping: 6, type: "spring", stiffness: 100 }}
+            src="../public/me.png"
+            className="avatar"
+            alt=""
+          />
           <div className="icon-verified"></div>
         </div>
-        <h1 className="title">Master Expert En développement Web</h1>
+
+        <motion.h1
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 2 }}
+          className="title"
+        >
+          Master Expert in web development .
+        </motion.h1>
+
         <p className="sub-title">
-          {" "}
-          👨‍💻 **Développeur Full-Stack à la recherche d'un contrat de
-          professionnalisation** pour mon parcours Master Expert en
-          Développement Web. 🌐 **Passionné par la création d'applications web
-          complètes**, je maîtrise les technologies front-end : HTML, CSS,
-          JavaScript, et back-end : Java, C, C++, PHP, JEE...🚀 **Prêt à relever
-          de nouveaux défis et à contribuer à des projets innovants**, je suis
-          disponible pour intégrer une entreprise dynamique où je pourrais
-          mettre en œuvre mes compétences et développer mon expertise.
+        
+        My name is sayed mejbri, Full-Stack Developer looking for a professional contract** for my Master Expert in Web Development course.
         </p>
-        <div className="icons flex">
-          <div className=" icon icon-twitter"></div>
+
+        <div className="all-icons flex">
+          <div className="icon icon-twitter"></div>
           <div className="icon icon-instagram"></div>
           <div className="icon icon-github"></div>
-          <div className="icon icon-linkedin-square"></div>
+          <div className="icon icon-linkedin"></div>
         </div>
       </div>
-      <div className="right-section border animation">animation</div>
+
+      <div className="right-section animation ">
+        <Lottie
+          lottieRef={lottieRef}
+          className=""
+          onLoadedImages={() => {
+            // @ts-ignore
+            // https://lottiereact.com/
+            lottieRef.current.setSpeed(0.5);
+          }}
+          animationData={devAnimation}
+        />
+      </div>
     </section>
   );
 };
