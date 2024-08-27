@@ -1,5 +1,13 @@
 export const myProjects = [
   {
+    projectTitle: "portfolio-react-taillwind",
+    category: ["react"],
+    imgPath: "./images/portfolio.jpg",
+    description: "Bienvenue sur mon portfolio ! Ce projet est développé avec **React** pour la construction de l'interface utilisateur et **Tailwind CSS** pour le style. Il met en avant mes compétences, projets, et expériences dans le développement web.",
+    link:"https://module-reservation-php-mysq.vercel.app/",
+    gith:"https://github.com/SAYED-MEJBRI/Portfolio_React_Taillwind.git",
+  },
+  {
     projectTitle: "projet PHP",
     category: ["php"],
     imgPath: "./images/reservation.jpg",

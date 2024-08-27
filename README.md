@@ -13,5 +13,4 @@ Bienvenue sur mon portfolio ! Ce projet est développé avec **React** pour la c
 - **Tailwind CSS** : Pour une stylisation rapide et efficace avec des classes utilitaires.
 - **Vite** : Pour un environnement de développement rapide et performant.
 
-## Aperçu
-Vous pouvez visualiser une démo de ce portfolio en ligne [ici](lien_vers_votre_portfolio).
+
