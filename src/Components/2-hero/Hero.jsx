@@ -32,15 +32,27 @@ const Hero = () => {
         </motion.h1>
 
         <p className="sub-title">
-        
-        My name is sayed mejbri, Full-Stack Developer looking for a professional contract** for my Master Expert in Web Development course.
+          Je m'appelle Sayed Mejbri, développeur web full stack passionné par la
+          création de solutions numériques innovantes. Actuellement inscrit en
+          Master Expert en Développement Web à l'École d’Informatique et du
+          Digital à Marseille (Doranco), je maîtrise aussi bien le développement
+          front-end que back-end. Mes compétences incluent HTML, CSS,
+          JavaScript, ainsi que php Java et JEE .... pour des applications
+          robustes et performantes. Fort de mon expertise, je suis capable de
+          concevoir et développer des sites web et des applications complètes,
+          allant de la conception de l'interface utilisateur à la gestion de
+          bases de données et à la logique serveur.
         </p>
 
         <div className="all-icons flex">
-          <div className="icon icon-twitter"></div>
-          <div className="icon icon-instagram"></div>
-          <div className="icon icon-github"></div>
-          <div className="icon icon-linkedin"></div>
+          {/* <div className="icon icon-twitter"></div>
+          <div className="icon icon-instagram"></div> */}
+          <a href="https://github.com/SAYED-MEJBRI">
+            <div className="icon icon-github"></div>
+          </a>
+          <a href="https://www.linkedin.com/in/sayed-mejbri-442173224/">
+            <div className="icon icon-linkedin"></div>
+          </a>
         </div>
       </div>
 

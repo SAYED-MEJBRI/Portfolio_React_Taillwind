@@ -1,47 +1,5 @@
 export const myProjects = [
   {
-    projectTitle: "react project",
-    category: ["react"],
-    imgPath: "./images/1.jpg",
-    description:
-      "Création d'une page web adaptable à tous les écrans, utilisant les technologies HTML, CSS et Media Queries pour garantir une expérience utilisateur optimale sur différents dispositifs. Ce projet met en avant mes compétences en développement front-end et en design web réactif.",
-    link:"https://ecf-1-mode83.vercel.app/",
-    gith:"https://github.com/SAYED-MEJBRI/ECF1-mode83",
- 
-  },
-  {
-    projectTitle: "Formulaire de Registration avec Contrôle de Saisie en JavaScript",
-    category: ["js", "css"],
-    imgPath: "./images/2.jpg",
-    description: "L'objectif principal est de créer un formulaire d'inscription fonctionnel et convivial avec une validation efficace des données en utilisant JavaScript. Ce projet vise à améliorer l'expérience utilisateur en fournissant un retour en temps réel sur les erreurs de saisie et en assurant que les informations soumises sont correctes et complètes.",
-       link:"https://ecf-1-mode83.vercel.app/",
-      gith:"https://github.com/SAYED-MEJBRI/ECF1-mode83",
-  },
-  { projectTitle: "css project", category: ["css"], imgPath: "./images/3.jpg",  description:
-    "Création d'une page web adaptable à tous les écrans, utilisant les technologies HTML, CSS et Media Queries pour garantir une expérience utilisateur optimale sur différents dispositifs. Ce projet met en avant mes compétences en développement front-end et en design web réactif.",
-    link:"https://ecf-1-mode83.vercel.app/",
-    gith:"https://github.com/SAYED-MEJBRI/ECF1-mode83",
-  },
-  {
-    projectTitle: "react project",
-    category: ["react"],
-    imgPath: "./images/4.jpg",
-    description:
-      "Création d'une page web adaptable à tous les écrans, utilisant les technologies HTML, CSS et Media Queries pour garantir une expérience utilisateur optimale sur différents dispositifs. Ce projet met en avant mes compétences en développement front-end et en design web réactif.",
-      link:"https://ecf-1-mode83.vercel.app/",
-      gith:"https://github.com/SAYED-MEJBRI/ECF1-mode83",
-  },
-  {
-    projectTitle: "Production d'une page web responsive",
-    category: ["css"],
-    imgPath: "./images/ecf-1.jpg",
-    description:
-      "Création d'une page web adaptable à tous les écrans, utilisant les technologies HTML, CSS et Media Queries pour garantir une expérience utilisateur optimale sur différents dispositifs. Ce projet met en avant mes compétences en développement front-end et en design web réactif.",
-      link:"https://ecf-1-mode83.vercel.app/",
-      gith:"https://github.com/SAYED-MEJBRI/ECF1-mode83",
-    },
-
-  {
     projectTitle: "projet PHP",
     category: ["php"],
     imgPath: "./images/reservation.jpg",
@@ -51,13 +9,13 @@ export const myProjects = [
     gith:"https://github.com/SAYED-MEJBRI/module_reservation_php_mysq.git",
   },
   {
-    projectTitle: "node project",
-    category: ["node"],
-    imgPath: "./images/7.jpg",
+    projectTitle: "Blog en PHP/MySQL",
+    category: ["php"],
+    imgPath: "./images/blog2.jpg",
     description:
-      "Création d'une page web adaptable à tous les écrans, utilisant les technologies HTML, CSS et Media Queries pour garantir une expérience utilisateur optimale sur différents dispositifs. Ce projet met en avant mes compétences en développement front-end et en design web réactif.",
-      link:"https://ecf-1-mode83.vercel.app/",
-      gith:"https://github.com/SAYED-MEJBRI/ECF1-mode83",
+      "Ce projet est un blog développé en PHP/MySQL, basé sur l'architecture MVC (Modèle-Vue-Contrôleur). Le blog permet aux utilisateurs de consulter des articles publiés, tout en offrant la possibilité de s'inscrire pour accéder à des fonctionnalités supplémentaires.",
+      link:"https://blogsayed-34emna0o9-sayedmejbris-projects.vercel.app/",
+      gith:"https://github.com/SAYED-MEJBRI/blog-version3.git",
   },
   {
     projectTitle: "Application To Do",
@@ -86,4 +44,25 @@ export const myProjects = [
       link:"https://framework-ql06g1826-sayedmejbris-projects.vercel.app/",
       gith:"https://github.com/SAYED-MEJBRI/mode83css.git",
   },
+
+  {
+    projectTitle: "Formulaire d'Inscription avec Validation en JavaScript",
+    category: ["css", "js"],
+    imgPath: "./images/formulaire.jpg",
+    description:
+      " Ce projet est un formulaire d'inscription dynamique développé avec HTML, CSS, et JavaScript. Le formulaire est conçu pour valider les informations saisies par l'utilisateur en temps réel. ",
+      link:"https://formulaire-bkcnspg7z-sayedmejbris-projects.vercel.app/",
+      gith:"https://github.com/SAYED-MEJBRI/monFormulaire.git",
+  },
+  {
+    projectTitle: "Production d'une page web responsive",
+    category: ["css"],
+    imgPath: "./images/ecf-1.jpg",
+    description:
+      "Création d'une page web adaptable à tous les écrans, utilisant les technologies HTML, CSS et Media Queries pour garantir une expérience utilisateur optimale sur différents dispositifs. Ce projet met en avant mes compétences en développement front-end et en design web réactif.",
+      link:"https://ecf-1-mode83.vercel.app/",
+      gith:"https://github.com/SAYED-MEJBRI/ECF1-mode83",
+    },
+
+  
  ];

@@ -50,12 +50,16 @@ section.hero {
     margin-bottom: 32px;
   }
   
-  section.hero .all-icons {
+  section.hero .all-icons  {
+    font-size: 1.3rem;
+    gap: 1.5rem;
+    
+  }
+  section.hero .all-icons .icon {
     font-size: 1.3rem;
     gap: 1.5rem;
     color: var(--subtitle);
   }
-  
   section.hero .all-icons .icon:hover {
     font-size: 1.4rem;
     transition: 0.3s;
