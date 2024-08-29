@@ -4,7 +4,7 @@ export const myProjects = [
     category: ["react"],
     imgPath: "./images/portfolio.jpg",
     description: "Bienvenue sur mon portfolio ! Ce projet est développé avec **React** pour la construction de l'interface utilisateur et **Tailwind CSS** pour le style. Il met en avant mes compétences, projets, et expériences dans le développement web.",
-    link:"https://portfolio-react-taillwind.vercel.app/",
+    link:"https://portfolio-nine-eosin-10.vercel.app/",
     gith:"https://github.com/SAYED-MEJBRI/Portfolio_React_Taillwind.git",
   },
   {

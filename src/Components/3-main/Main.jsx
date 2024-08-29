@@ -99,13 +99,13 @@ const Main = () => {
                     </div>
                     
 
-                    <a className="link flex" href="{item.link}">
+                    {/* <a className="link flex" href="{item.link}">
                       more
                       <span
                         style={{ alignSelf: "end" }}
                         className="icon-arrow-right"
                       ></span>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </motion.article>
