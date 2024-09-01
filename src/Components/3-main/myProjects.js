@@ -17,6 +17,15 @@ export const myProjects = [
     gith:"https://github.com/SAYED-MEJBRI/module_reservation_php_mysq.git",
   },
   {
+    projectTitle: "Gestion-de-Biblioth-que",
+    category: ["Java"],
+    imgPath: "./images/Bibliotheque.jpg",
+    description:
+      "Ce projet est un blog développé en PHP/MySQL, basé sur l'architecture MVC (Modèle-Vue-Contrôleur). Le blog permet aux utilisateurs de consulter des articles publiés, tout en offrant la possibilité de s'inscrire pour accéder à des fonctionnalités supplémentaires.",
+      link:"https://github.com/SAYED-MEJBRI/Gestion-de-Biblioth-que.git",
+      gith:"https://github.com/SAYED-MEJBRI/Gestion-de-Biblioth-que.git",
+  },
+  {
     projectTitle: "Blog en PHP/MySQL",
     category: ["php"],
     imgPath: "./images/blog2.jpg",

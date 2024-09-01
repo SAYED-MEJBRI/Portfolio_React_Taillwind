@@ -42,6 +42,14 @@ const Main = () => {
         >
           HTML & CSS
         </button>
+        <button
+          onClick={() => {
+            handleClick("Java");
+          }}
+          className={currentActive === "Java" ? "active" : null}
+        >
+         JAVA
+        </button>
 
         <button
           onClick={() => {
