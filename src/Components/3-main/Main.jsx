@@ -34,23 +34,23 @@ const Main = () => {
           all projects
         </button>
 
-        <button
-          onClick={() => {
-            handleClick("css");
-          }}
-          className={currentActive === "css" ? "active" : null}
-        >
-          HTML & CSS
-        </button>
+       
         <button
           onClick={() => {
             handleClick("Java");
           }}
           className={currentActive === "Java" ? "active" : null}
         >
-         JAVA
+         JAVA JEE
         </button>
-
+        <button
+          onClick={() => {
+            handleClick("php");
+          }}
+          className={currentActive === "php" ? "active" : null}
+        >
+          PHP & Mysql
+        </button>
         <button
           onClick={() => {
             handleClick("js");
@@ -67,13 +67,14 @@ const Main = () => {
         >
           React & MUI
         </button>
+       
         <button
           onClick={() => {
-            handleClick("php");
+            handleClick("css");
           }}
-          className={currentActive === "php" ? "active" : null}
+          className={currentActive === "css" ? "active" : null}
         >
-          PHP & Mysql
+          HTML & CSS
         </button>
       </section>
 

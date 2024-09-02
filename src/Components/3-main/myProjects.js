@@ -14,16 +14,24 @@ export const myProjects = [
     description:
     "Ce projet est un module de réservation développé en PHP avec une base de données MySQL. L'interface web est conçue pour être simple et intuitive, avec un design en CSS qui assure une présentation claire et responsive, adaptée à tous les types d'appareils.",
     link:"https://module-reservation-php-mysq.vercel.app/",
-    gith:"https://github.com/SAYED-MEJBRI/module_reservation_php_mysq.git",
+    gith:"https://github.com/SAYED-MEJBRI/Module_Reservation_PHP_MySql-.git",
   },
   {
     projectTitle: "Gestion-de-Biblioth-que",
     category: ["Java"],
     imgPath: "./images/Bibliotheque.jpg",
     description:
-      "Ce projet est un blog développé en PHP/MySQL, basé sur l'architecture MVC (Modèle-Vue-Contrôleur). Le blog permet aux utilisateurs de consulter des articles publiés, tout en offrant la possibilité de s'inscrire pour accéder à des fonctionnalités supplémentaires.",
+      "Ce projet est une application Java développée sur l'IDE Eclipse, utilisant une base de données MySQL pour gérer les données d'une bibliothèque. L'application permet d'effectuer diverses opérations, telles que l'ajout, la suppression, la modification et la consultation de livres, ainsi que la gestion des commandes et des fournisseurs.",
       link:"https://github.com/SAYED-MEJBRI/Gestion-de-Biblioth-que.git",
       gith:"https://github.com/SAYED-MEJBRI/Gestion-de-Biblioth-que.git",
+  },
+  {
+    projectTitle: "Gestion-de-Biblioth-que V2",
+    category: ["Java"],
+    imgPath: "./images/BibliothequeV2.jpg",
+    description: "Nous avons fait évoluer l' application en une version web. Désormais accessible via un navigateur, elle offre une interface utilisateur conviviale et permet de gérer la bibliothèque en ligne tout en conservant les fonctionnalités essentielles de gestion des livres, des commandes et des fournisseurs.",
+      link:"https://github.com/SAYED-MEJBRI/Projet_librairie2.git",
+      gith:"https://github.com/SAYED-MEJBRI/Projet_librairie2.git",
   },
   {
     projectTitle: "Blog en PHP/MySQL",
