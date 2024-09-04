@@ -98,16 +98,19 @@ const Main = () => {
 
                   <div className="flex icons">
                     <div style={{ gap: "11px" }} className="flex">
-                      <a href={item.link}>
+                      {/* <a href={item.link}>
                         
                         <div className="icon-link"></div>
-                      </a>
+                      </a> */}
                       <a href={item.gith}>
                       <div className="icon-github"></div>
                     </a>
                     </div>
                     
-
+                    <a href={item.link}>
+                        
+                        <div className="icon-link"></div>
+                      </a>
                     {/* <a className="link flex" href="{item.link}">
                       more
                       <span

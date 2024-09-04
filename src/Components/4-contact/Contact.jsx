@@ -18,16 +18,17 @@ const Contact = () => {
         something new.
       </p>
 
-      <div style={{ justifyContent: "space-between" }} className="flex">
+      <div style={{ justifyContent: "space-between" }} className="flex ">
         <form onSubmit={handleSubmit} className="">
-          <div className="flex">
-            <label htmlFor="email">Email Address:</label>
+          <div className="flex culum">
+            <label htmlFor="email ">Email Address:</label>
             <input
               autoComplete="off"
               required
               type="email"
               name="email"
               id="email"
+              style={{ marginTop: "12px" }}
             />
             <ValidationError
               prefix="Email"
@@ -36,20 +37,29 @@ const Contact = () => {
             />
           </div>
 
-          <div className="flex" style={{ marginTop: "24px" }}>
+          <div className="flex culum" style={{ marginTop: "24px" }}>
             <label htmlFor="message">Your message:</label>
-            <textarea required name="message" id="message"></textarea>
+            <textarea
+              required
+              name="message"
+              id="message"
+              style={{ marginTop: "12px" }}
+            ></textarea>
             <ValidationError
               prefix="Message"
               field="message"
               errors={state.errors}
             />
           </div>
-
-          <button type="submit" disabled={state.submitting} className="submit">
-            {state.submitting ? "Submitting ..." : "Submit"}
-          </button>
-
+          <div className="flex btn">
+            <button
+              type="submit"
+              disabled={state.submitting}
+              className="submit flex"
+            >
+              {state.submitting ? "Submitting ..." : "Submit"}
+            </button>
+          </div>
           {state.succeeded && (
             <p
               className="flex"

@@ -79,6 +79,14 @@ section.contact-us .icon-envelope {
   section.contact-us .submit:hover {
     scale: 0.97;
   }
+  section.contact-us .btn {
+    justify-content: end;
+  }
+  section.contact-us form .culum{
+    display: flex;
+    flex-direction: column;
+    
+  }
   
   /* =====================================
     3- Responsive Design (media query)
@@ -117,6 +125,6 @@ section.contact-us .icon-envelope {
   
     section.contact-us .submit {
       width: 30%;
-      align-self: center;
+      align-self: end;
     }
   }
