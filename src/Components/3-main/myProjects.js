@@ -80,7 +80,7 @@ export const myProjects = [
       gith:"https://github.com/SAYED-MEJBRI/monFormulaire.git",
   },
   {
-    projectTitle: "Production d'une page web responsive",
+    projectTitle: "AgendaZen - Application de Gestion de Tâches",
     category: ["flutter"],
     imgPath: "./images/Agenda.jpg",
     description:"AgendaZen est une application mobile de gestion de tâches personnelle conçue pour aider les utilisateurs à organiser et suivre leurs tâches quotidiennes. L'interface conviviale permet aux utilisateurs d'ajouter, modifier, et supprimer des tâches, ainsi que de marquer celles qui sont terminées.",
