@@ -70,7 +70,7 @@ const Main = () => {
        
         <button
           onClick={() => {
-            handleClick("css");
+            handleClick("flutter");
           }}
           className={currentActive === "flutter" ? "active" : null}
         >
