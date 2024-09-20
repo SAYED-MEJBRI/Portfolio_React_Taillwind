@@ -72,9 +72,9 @@ const Main = () => {
           onClick={() => {
             handleClick("css");
           }}
-          className={currentActive === "css" ? "active" : null}
+          className={currentActive === "flutter" ? "active" : null}
         >
-          HTML & CSS
+            Dart & flutter
         </button>
       </section>
 

@@ -81,12 +81,11 @@ export const myProjects = [
   },
   {
     projectTitle: "Production d'une page web responsive",
-    category: ["css"],
-    imgPath: "./images/ecf-1.jpg",
-    description:
-      "Création d'une page web adaptable à tous les écrans, utilisant les technologies HTML, CSS et Media Queries pour garantir une expérience utilisateur optimale sur différents dispositifs. Ce projet met en avant mes compétences en développement front-end et en design web réactif.",
-      link:"https://ecf-1-mode83.vercel.app/",
-      gith:"https://github.com/SAYED-MEJBRI/ECF1-mode83",
+    category: ["flutter"],
+    imgPath: "./images/Agenda.jpg",
+    description:"AgendaZen est une application mobile de gestion de tâches personnelle conçue pour aider les utilisateurs à organiser et suivre leurs tâches quotidiennes. L'interface conviviale permet aux utilisateurs d'ajouter, modifier, et supprimer des tâches, ainsi que de marquer celles qui sont terminées.",
+     link:"https://github.com/SAYED-MEJBRI/Agenda_Zen.git",
+      gith:"https://github.com/SAYED-MEJBRI/Agenda_Zen.git",
     },
 
   
